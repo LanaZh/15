@@ -10,7 +10,7 @@ import UIKit
 struct InfoSetting {
     var image: UIImage
     var name: String
-
+    
  static func moveAlbom() -> [InfoSetting] {
     let first = InfoSetting(image: UIImage(named: "airplane")!,
                         name: "Авиарежим")
@@ -28,4 +28,5 @@ struct InfoSetting {
     return [first, second, third, fouth, five, six]
     }
 }
+
 
